@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head{
+   height:  60%;
+   background: rgba(253, 248, 248, 0.976);
+   
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: center;
+    padding: 20px;
+}
+.navi{
+    display: flex;
+    padding-right: 20px;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.primary_btn{
+   background-color: #FD6E0A;
+   color: aliceblue;
+   padding: 15px;
+   border: none;
+   border-radius: 3px;
+   margin-right: 20px;
+}
+button{
+    padding: 15px;
+    color:  #FD6E0A;
+    background: white;
+    border-color: #FD6E0A;
+    border-radius: 3px;
+    
+}
+.mary_info>h1{
+font-size: 48px ;
+}
+.mary_img{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header_section{
+    display: flex;
+    justify-content: space-around;
+}
+/* .bg{
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+} */
+
