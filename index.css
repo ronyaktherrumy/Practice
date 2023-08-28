@@ -129,12 +129,10 @@ text-align: center;
 font-size: 35px;
 font-style: normal;
 font-weight: 700;
+margin-bottom: 1rem;
 }
 /* experience section start */
-/* .all_experience{
-    display: flex;
-    justify-content: center;
-} */
+
 .my_experience{
  padding: 30px;
     display: flex;
@@ -203,4 +201,44 @@ font-weight: 700;
 .downlod{
     text-align: center;
     margin-bottom: 130px;
+}
+/* foot  */
+.foot{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    height:70%;
+    background: #FFF8F3;
+    gap: 100px; 
+}
+.contact{
+   width: 50%;
+   margin-top: 130px;
+}
+.contact>h1,p{
+margin-bottom: 30px;
+
+}
+.contact> img{
+    margin-bottom: 100px;
+}
+.link{
+    margin-right: 1rem;
+}
+.sms{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.sms>h1{
+    margin-bottom: 28px;
+}
+
+.form>input,textarea{
+    display: block;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    font-size: 18px;
 }
